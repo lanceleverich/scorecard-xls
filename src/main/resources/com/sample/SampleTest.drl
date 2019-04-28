@@ -1,2 +1,51 @@
 package com.sample;
 
+import com.sample.Applicant;
+
+rule "Rule 1 : LOW RISK" 
+
+no-loop true
+
+when 
+    
+    	$app : Applicant(totalScore >= 412 ,totalScore <= 450 )
+    	
+then
+	  
+     	
+        System.out.println(" LOW RISK - APPLICATION SCORE : "+$app.getTotalScore() );
+      
+    
+end
+
+rule "Rule 2  : MEDIUM RISK" 
+
+no-loop true
+
+when 
+    
+    	$app : Applicant(totalScore >=  451 , totalScore <= 500)
+	
+then
+	
+        System.out.println("MEDIUM RISK - APPLICATION SCORE : "+$app.getTotalScore());
+      
+    
+end
+
+
+rule "Rule 3  : HIGH RISK" 
+
+no-loop true
+
+when 
+    
+    	$app : Applicant(totalScore >=  501 , totalScore <= 568)
+	
+then
+	
+     
+        System.out.println("HIGH RISK - APPLICATION SCORE : "+$app.getTotalScore() );
+      
+    
+end
