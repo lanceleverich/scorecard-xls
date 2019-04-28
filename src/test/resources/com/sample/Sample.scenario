@@ -38,7 +38,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>totalScore</fieldName>
-          <expected>51</expected>
+          <expected>451</expected>
           <actualResult></actualResult>
           <successResult>false</successResult>
           <explanation>[ad] field [totalScore] was [] expected [51].</explanation>
