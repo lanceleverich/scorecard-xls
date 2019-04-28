@@ -31,14 +31,14 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>12</executionTimeResult>
+      <executionTimeResult>13</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>totalScore</fieldName>
-          <expected>30</expected>
+          <expected>51</expected>
           <actualResult></actualResult>
           <successResult>false</successResult>
           <explanation>[ad] field [totalScore] was [] expected [30].</explanation>
@@ -50,7 +50,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2019-04-28 05:01:46.917 UTC</lastRunResult>
+  <lastRunResult>2019-04-28 05:02:41.488 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.sample</packageName>
