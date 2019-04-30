@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sample</groupId>
   <artifactId>SampleScore</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.01</version>
   <packaging>kjar</packaging>
   <name>SampleScore</name>
   <description></description>
